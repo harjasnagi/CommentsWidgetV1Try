@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #898989;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  color: white;
+  text-shadow: 0 0 3px #070054, 0 0 5px #2d2d2d;
+}
+.container{
+  border: 3px black dotted;
+  margin: 50px 300px;
+  padding-bottom: 100px;
+  border-radius: 10px;
+}
+.inputDiv{
+  text-align: center;
+}
+input{
+  width: 40%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  display: inline-block;
+}
+.btn{
+  padding: 12px 20px;
+  margin: 0px 10px;
+  border: 1px black solid;
+  border-radius: 4px;
+}
+.cmts{
+  margin: 10px 150px;
+  padding: 10px 20px 10px 20px;
+  transition: transform .2s;
+  border-radius: 6px;
+}
+.cmts:hover{
+  transform: scale(1.005);
+  cursor: pointer;
+  background-color: rgb(115, 115, 115);
+}
+.cmtsText{
+  padding: 10px 20px;
+}
+.bottom{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 10px 0px;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+.cmtsImg{
+  height: 35px;
+  vertical-align:middle;
+}
+.cmtsEdit{
+  height: 20px;
+  vertical-align:middle;
+  float: right;
+  margin: 0px 5px;
+}
+.cmtsTrash{
+  height: 20px;
+  vertical-align:middle;
+  float: right;
+  margin: 0px 5px;
+}
+.like{
+  height: 20px;
+  vertical-align:middle;
+}
